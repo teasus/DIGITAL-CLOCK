@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  height: 68vh;
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+  background: url(https://r4.wallpaperflare.com/wallpaper/586/675/740/vaporwave-wallpaper-97c074f8fcc105c90d1dd94f575a945a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  overflow: hidden;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(227, 235, 241);
+  letter-spacing: 7px;
+  font-size: 30px;
+  text-shadow: 5px 1px 5px black;
+}
+.clock {
+  display: flex;
+}
+.clock div {
+  margin: 5px;
+}
+
+.clock span {
+  width: 200px;
+  height: 100px;
+  color: aliceblue;
+  background-color: rgb(248, 141, 53);
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 20px 20px 0px 0px;
+}
+.clock .text {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  height: 30px;
+  background: rgb(187, 0, 255);
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  font-size: small;
+  border-radius: 0px 0px 20px 20px;
+}
+.clock .tex {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  height: 30px;
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  font-size: small;
+  border-radius: 0px 0px 20px 20px;
+  background: rgb(248, 141, 53);
+  width: 50px;
+  border-radius: 20px;
+}
+
+
+.am{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: end;
+  
+  
+}
+.clock .pm {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  height: 30px;
+  background: rgb(187, 0, 255);
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  font-size: small;
+  border-radius: 0px 0px 20px 20px;
+  width: 50px;
+  border-radius: 20px;
+
+}
+
+.AL {
+  display: flex;
+  display: hidden;
+  margin: 5px;
+}
+.AL div {
+  display: flex;
+  padding-top: 100px;
+
+  align-items:center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+.alarm {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  font-size: l20px;
+  text-align: center;
+  justify-content: center;
+  margin: 8px;
+  scrollbar-width: 10px;
+  opacity: 0.7;
+
+  place-content: 2;
+}
+input[type="number"] {
+  font-size: 60px;
+}

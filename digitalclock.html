@@ -1,0 +1,57 @@
+<html lang="en">
+  <title>DIGITAL CLOCK</title>
+  <head>
+    
+    <link rel="stylesheet" href="digitalclock.css" />
+    
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h2 >Digital Clock</h2>
+    <div class="clock">
+      <div>
+        <span id="hour">00</span>
+        <span class="text">Hours</span>
+      </div>
+      <div>
+        <span id="minutes">00</span>
+        <span class="text">Minutes</span>
+      </div>
+      <div>
+        <span id="seconds">00</span>
+        <span class="text">Seconds</span>
+      </div>
+      <div class="am">
+        
+        <span class="tex">AM</span>
+      </div>
+    </div>
+   
+    <div class="AL hidden">
+      <div>
+        <input type="number" class="alarm al_hours" min="00" max="24"> </input>
+        <h3>HOURS</h3>
+      </div>
+      <div>
+        <input type="number" class="alarm al_min" min="00" max="60"> </input>
+        <h3>MINUTES</h3>
+      </div>
+      <div>
+        <input  type="number" class="alarm al_sec" min="00" max="60"> </input>
+        <h3>SECONDS</h3>
+      </div>
+    </div> 
+
+    <div > <button  class="btnADD"> ADD ALARM</button></div>
+
+    <div > <button  class="btnSET hidden"> SET ALARM</button></div>
+    <script src="script.js"></script>
+  </body>
+  
+</html>
+
